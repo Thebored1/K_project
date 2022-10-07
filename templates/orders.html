@@ -1,0 +1,15 @@
+{%include "base.html"%}
+
+
+{% for order in order %}
+<h1>orders</h1>
+{{order.services_required}} <br><br>
+{{order.address}} <br><br>
+{{order.date}} 
+{{order.time}} <br><br>
+
+
+
+
+{% endfor %}
+{%include "footer.html"%}
